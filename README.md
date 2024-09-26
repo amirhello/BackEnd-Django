@@ -4,4 +4,4 @@ practice with Django
 This is a library management project that I created with Django.
 
 class diagram 
-![class Diagram](https://github.com/user-attachments/assets/79998b8e-3374-486c-abeb-83d3c3f45e24)
+![class Diagram (1)](https://github.com/user-attachments/assets/d19623a8-d436-4130-be73-849902644253)
