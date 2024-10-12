@@ -1,7 +1,7 @@
 
 #  مدل یک جدول دیتا بیسی هست 
 # Create your models here.
-from typing import Any
+from typing import Any      
 from django.db import models
 from django.contrib.auth.models import BaseUserManager ,AbstractBaseUser , PermissionsMixin 
 
@@ -59,7 +59,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     phone_number = models.CharField( max_length=15)
     is_active= models.BooleanField(default=True)
     is_staff= models.BooleanField(default=False) # make user admin
-    bearth_day =models.DateField(null=True)
+    birth_day =models.DateField(null=True)
 
     # Assign the custom UserManager to handle user-related operations using "objects"
     objects = UserManager()
