@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from .serializers import UserSerializer
+from rest_framework import generics
+# generics has CRUD method that we can use it for api
+#   
 
-# Create your views here.
+
+class CreateUserView(generics.CreateAPIView):
+    serializer_class = UserSerializer
+    
